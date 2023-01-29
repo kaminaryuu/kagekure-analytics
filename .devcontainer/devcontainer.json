@@ -6,6 +6,7 @@
   "waitFor": "onCreateCommand",
   "updateContentCommand": "python3 -m pip install -r requirements.txt",
   "postCreateCommand": "",
+    "timeout": 180,
   "customizations": {
     "codespaces": {
       "openFiles": []
