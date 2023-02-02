@@ -3,7 +3,11 @@ import pandas as pd
 import numpy as num
 import csv
 
+<<<<<<< HEAD
 api_key = 'RGAPI-32db3421-d517-41c2-ba50-c22542d4cb0f'
+=======
+api_key = 'RGAPI-c273c4c5-5dcc-4319-bbb8-3161ab685d0c'
+>>>>>>> 9a93e81984d4f15585042d3235d8cca82f8c96fc
 watcher = LolWatcher(api_key)
 my_region = 'na1'
 version = "13.1.1"
@@ -32,4 +36,8 @@ for x in cl:
             champ_name.append(x)
 
 # Data Frame / Table of Champ per ID
+<<<<<<< HEAD
 Champ_Frame = pd.DataFrame(data)
+=======
+Champ_Frame = pd.DataFrame(data)
+>>>>>>> 9a93e81984d4f15585042d3235d8cca82f8c96fc
